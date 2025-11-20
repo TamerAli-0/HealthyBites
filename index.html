@@ -678,6 +678,33 @@
 
 
 
+<!-- <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" /> -->
+
+
+<script>
+    window.ChatWidgetConfig = {
+        webhook: {
+            url: 'http://localhost:5678/webhook/a75c2532-2ce2-4122-8996-834c875441bf/chat',
+            route: 'general'
+        },
+        branding: {
+            logo: 'https://imgpx.com/en/JjBIJiNx8ag7.jpg',
+            name: 'seatourism', // Your company name
+            welcomeText: 'Hi 👋, how can we help?', //Welcome message
+            responseTimeText: 'We typically respond right away' //Response time message
+        },
+        style: {
+            primaryColor: '#854fff', //Primary color
+            secondaryColor: '#6b3fd4', //Secondary color
+            position: 'right', //Position of the widget (left or right)
+            backgroundColor: '#ffffff', //Background color of the chat widget
+            fontColor: '#333333' //Text color for messages and interface
+        }
+    };
+</script>
+<script src="https://cdn.jsdelivr.net/gh/WayneSimpson/n8n-chatbot-template@ba944c3/chat-widget.js"></script>
+<!-- Widget Script -->
+</script>
 
 
 
@@ -685,17 +712,13 @@
 
 
 
-
-
-
-<link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
-<script type="module">
+<!-- <script type="module">
 	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
 	createChat({
 		webhookUrl: 'http://localhost:5678/webhook/a75c2532-2ce2-4122-8996-834c875441bf/chat'
 	});
-</script>
+</script> -->
 
 
 
