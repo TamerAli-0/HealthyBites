@@ -688,7 +688,14 @@
 
 
 
+<link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
+	createChat({
+		webhookUrl: 'http://localhost:5678/webhook/a75c2532-2ce2-4122-8996-834c875441bf/chat'
+	});
+</script>
 
 
 
@@ -696,6 +703,7 @@
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
-<!-- This site is converting visitors into subscribers and customer with https://respond.io --><script id="respondio__widget" src="https://cdn.respond.io/webchat/widget/widget.js?cId=7f994588bd2098959e0eae70134ef88"></script><!-- https://respond.io -->
+<!-- <script id="respondio__widget" src="https://cdn.respond.io/webchat/widget/widget.js?cId=7f994588bd2098959e0eae70134ef88"></script> -->
+ >
 </body>
 </html>
